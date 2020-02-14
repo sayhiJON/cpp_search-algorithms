@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\problems">
+      <UniqueIdentifier>{b49b8736-f679-4ead-bdae-23b4355277ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\problems">
+      <UniqueIdentifier>{e9debe54-e373-44f5-97fd-157d5bdc1bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\heuristics">
+      <UniqueIdentifier>{d568f0d7-6498-48e6-83bc-6465ffe35143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\problems\eight_puzzle">
+      <UniqueIdentifier>{ca531127-04f8-4fe1-8f97-f66bd5f3aec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\problems\eight_puzzle">
+      <UniqueIdentifier>{b64a8309-47f7-4ba3-b677-0ec9170b64c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\algorithms">
+      <UniqueIdentifier>{5004dec4-1f5c-40c0-9163-2aec0a2a56e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithms">
+      <UniqueIdentifier>{41f70a07-9b59-4fbe-bef3-3cfe72f992f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eight_puzzle_state.cpp">
+      <Filter>Source Files\problems\eight_puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="search_algorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eight_puzzle_problem.cpp">
+      <Filter>Source Files\problems\eight_puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="search_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs.cpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="search_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="search_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="search_problem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heuristic_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eight_puzzle_state.h">
+      <Filter>Header Files\problems\eight_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="search_algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="null_heuristic.h">
+      <Filter>Header Files\heuristics</Filter>
+    </ClInclude>
+    <ClInclude Include="eight_puzzle_problem.h">
+      <Filter>Header Files\problems\eight_puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="bfs.h">
+      <Filter>Header Files\algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
